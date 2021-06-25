@@ -8,6 +8,7 @@
 //     console.log("This is not Leap year this is normal year")
 // }
 
+// this is a nexted loop
 
 var year = 2020;
 

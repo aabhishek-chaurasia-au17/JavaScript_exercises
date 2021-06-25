@@ -18,15 +18,7 @@ var x = 10;
 
 console.log(x % 2 === 0 ? "Even" : "Odd");
 
-// Example:
 
-var city = "Jaipur";
-
-if (city === 'New Delhi') {
-   console.log('Capital of India');
-} else {
-   console.log('Not a capital of India');
-}
 
 
 
