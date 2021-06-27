@@ -18,4 +18,4 @@ if(num===2){
 }
 
 }
-console.log(finePrime(7));
+console.log(finePrime(13));
