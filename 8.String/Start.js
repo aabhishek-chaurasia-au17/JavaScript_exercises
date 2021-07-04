@@ -74,6 +74,8 @@ console.log( `${fname} good ${lname}`)
 
 // Trim
 
-// let myaName = 'Abhishek chaurasia';
+// let myaName = '       Abhishek chaurasia         ';
 
 // console.log(myName.trim());
+
+
