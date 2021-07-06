@@ -38,8 +38,6 @@ console.log(all);
 
 
 
-
-
 // METHOD 2  : 
 
 // const rotate = (arr, count = 1) => {

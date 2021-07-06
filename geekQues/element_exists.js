@@ -5,15 +5,13 @@ const existin = (test_array) =>{
 
     for (const i of test_array) {
         if (i === n){
-            console.log(true)
-            break
-        }else{
-            continue
+            return true
         }
     }
-    return 'element exists in Array'
+    return false
 }
 
-let test_array = [ 1, 6, 3, 5, 3, 4 ]
+
+let test_array = [ 1, 6, 3, 5, 3, 5]
 let n = 4; 
 console.log(existin(test_array))
