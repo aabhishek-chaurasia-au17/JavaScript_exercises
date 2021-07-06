@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change content</title>
+</head>
+<body>
+    <p> I am abhishek</p>
+    <p>like the video</p>
+    <p>Plz shear this video</p>
+    <h1 id="about">Know About me</h1>
+
+    <button onclick="changecontent()" type="submit">click me</button>
+    <br>
+    
+    <form action="">
+    <label> Male </label>
+    <input type="radio" name="gender" id="">
+    <label> femMale </label>
+    <input type="radio" name="gender" id="">
+    <label> Other</label>
+    <input type="radio" name="gender" id="">
+    </form>
+     
+    <script>
+        const changecontent = () =>{
+            // document.getElementById('about').innerHTML = 'I am a Programmer';
+            const headcontent = document.getElementById('about');
+            headcontent.innerHTML = "I am a Programmer"
+
+            
+
+            console.log(document.getElementsByName('gender'));
+
+            document.querySelector('#about').innerHTML='i changed again';
+        }
+    </script>
+</body>
+</html>

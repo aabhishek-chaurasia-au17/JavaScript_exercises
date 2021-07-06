@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener</title>
+    <style>
+        #box{
+            height: 150px;
+            width: 150px;
+            background-color: blueviolet;
+        } 
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div id="box">
+            
+        </div>
+    </div>
+
+
+    
+    <script>
+
+        let mEnter = document.getElementById("box");
+
+        mEnter.addEventListener("mouseenter", () => {
+            mEnter.style.backgroundColor = 'red';
+            console.log('Mouse Enter bro');
+        });
+
+        mEnter.addEventListener('mouseleave', () => {
+            console.log('Mouse leave bro');
+            mEnter.style.backgroundColor = 'pink';
+        });
+
+    </script>
+</body>
+</html>

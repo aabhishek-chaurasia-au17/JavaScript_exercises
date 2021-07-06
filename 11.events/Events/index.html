@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <div>
+        <a href="" onclick="callingFucnction()">Abhishek chaurasia</a>
+    </div>
+    <div>
+        <a href="" onclick="" id="thirdway">Abhishek is a programmer</a>
+    </div>
+    <div>
+        <a href="" onclick="" id="fourtWay">Abhishek is a programmer</a>
+    </div>
+    <script>
+        // way 2
+        const callingFucnction = () =>{
+            alert('most common way of writing function')
+        }
+        // way 3
+        const thirdway = document.getElementById("thirdway");
+
+        thirdway.onclick = function() {
+            alert('most common way of writing function again')
+        }
+        // way 4
+
+        const fourtWay = document.querySelector('#fourtWay');
+        fourtWay.addEventListener('click',() => {
+            alert('4th way writing funtion')
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Event</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            background-color: cadetblue;
+        }
+        .main{
+            width: 100%;
+            padding-top: 200px;
+        }
+        .row{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .row .input{
+            width: 200px;
+            margin-left: 20px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row">
+            <label for="" >Your name</label>
+            <input type="text" class="input" name="" id="name">
+        </div>
+        <div class="row">
+            <label for="" >Choose an ice cream flaver</label>
+            <select id="fav" name="fav" >
+            <option value="Chocolate">Chocolate</option>
+            <option value="Mango">Mango</option>
+            <option value="Orenge">Orenge</option>
+            </select>
+        </div>
+        <br>
+        <div id="resulte"></div>
+    </div>
+
+    <script src="">
+        // const selectElement = () => {
+        //     const inputChange = document.getElementById('name').value;
+        //     const iceCreams = document.getElementById('fav').value;
+        //     const result = document.getElementById('resulte');
+
+        //     result.innerHTML = `Mr ${inputChange} Select ${iceCreams} ice-cream flavour`
+        // }
+
+        iceCream.addEventListener('change',() => {
+            const inputChange = document.getElementById('ice').nodeValue;
+            const iceCream = document.getElementById('fav').nodeValue;
+            const result = document.getElementById('result');
+
+            result.innerHTML = `Mr ${inputChange} Select ${iceCream} ice-cream flavour`
+        });
+    </script>
+</body>
+</html>
