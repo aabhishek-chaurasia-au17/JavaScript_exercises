@@ -11,31 +11,17 @@
 
 // METHOD 1  : 
 
-let array = [1, 2, 3, 4, 5, 6, 7];
+const arryrotate = (arr,k) =>{
 
-let temp = array.splice(5,2);
-
-// let temp = array.pop()
-
-// let temp2 = array.pop()
-
-let finel = array.unshift(temp)
-
-// console.log(array);
-
-let all = []
-
-for(var i = 0; i < array.length; i++){
-   let use = append(array[i])
-    break
+    for(let i = 0; i < k; i++){
+        arr.unshift(arr.pop());
+    }
+    return arr
 }
-
-console.log(all);
-
-
-
-
-
+let arr = [1, 2, 3, 4, 5, 6, 7];
+let k = 2; 
+let n = 7;
+console.log(arryrotate(arr,k)); 
 
 
 // METHOD 2  : 
