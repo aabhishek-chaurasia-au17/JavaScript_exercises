@@ -7,9 +7,12 @@
 // Output : [1, 5, 3, 4, 2]
 
 
+// way 1
+
 const swaptwo = (List, pos1, pos2) =>{
 
-    List[pos1],List[List.lenth [pos2]] = List[List.lenth [pos2]],List[pos1]
+    [List[pos1], List[pos2]] = [List[pos2], List[pos1]]
+    
     return List
 }
 
@@ -18,4 +21,15 @@ let pos1 = 1;
 let pos2 = 3;
 console.log(swaptwo(List,pos1-1,pos2-1))
 
-]
+
+// way 2
+
+
+// const swaptwo = (List, pos1, pos2) =>{
+
+// }
+
+// let List = [23, 65, 19, 90]
+// let pos1 = 1;
+// let pos2 = 3;
+// console.log(swaptwo(List,pos1-1,pos2-1))

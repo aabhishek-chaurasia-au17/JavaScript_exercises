@@ -29,7 +29,7 @@ function splitArr(arr, n, k){
 
 // Driver code
 
-let arr = [ 12, 10, 5, 6, 52, 36 ];
+let arr = [12, 10, 5, 6, 52, 36];
 let n = arr.length;
 
 let position = 2;
