@@ -36,3 +36,18 @@ console.log(arryrotate(arr,k));
 // console.log(rotate(arr, 2));  // [3, 4, 5, 1, 2]
 // console.log(rotate(arr, -2)); // [4, 5, 1, 2, 3]
 // console.log(rotate(arr, -1)); // [5, 1, 2, 3, 4]
+
+// METHOD 3 Not Working  : 
+
+const arryrotation = (arry,k1,n1) =>{
+
+    for(let j = 0; j < k1; j++)
+    {
+    arry = (n1 + j - k1) % n1
+    return arry
+    }
+}
+let arry = [1, 2, 3, 4, 5, 6, 7];
+let k1 = 3; 
+let n1 = 7;
+console.log(arryrotation(arry,k1,n1))
