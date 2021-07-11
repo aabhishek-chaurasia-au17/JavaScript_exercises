@@ -31,6 +31,6 @@ function palindrome(str) {
 }
 
 
-let str = "malayalam"
+let str = "abhishek"
 
 console.log(palindrome(str));
