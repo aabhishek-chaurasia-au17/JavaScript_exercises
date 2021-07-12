@@ -13,7 +13,7 @@ console.log(myfriend.length)
 console.log(myfriend[myfriend.length-1]);
 
 
-// Useing For Loop to navigate
+// Useing For Loop to navigate array
 
 for(var i = 0; i < myfriend.length; i++){
     console.log(i)

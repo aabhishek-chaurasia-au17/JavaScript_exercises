@@ -27,3 +27,11 @@ vegitabel.shift();//shift() method use for remove First iten in array
 console.log(vegitabel);
 
 console.log(vegitabel.length)
+
+
+// return the bananas in array using slice Method
+
+let txt = "I can eat bananas all day";
+let x = txt.slice(10,17);
+
+console.log(x);
