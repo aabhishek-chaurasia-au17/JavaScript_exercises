@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traverse DOM</title>
+</head>
+<body>
+    <div class="main">
+        <h1>A am a great programmer</h1>
+    </div>
+
+    <h2>Am Learning a JavaScript DOM </h2>
+    
+    <div id="last">
+        <div class="lastInner">
+            <h3>becoming a programmer</h3>
+        </div>
+    </div>
+
+    <script>
+        // 1.Parent Node.
+        // const newhead = document.querySelector('#last')
+        // const parent = newhead.parentNode;
+        // console.log(parent);
+
+        
+        // 2.childrenNodes
+        // const knowchilddiv = document.querySelector('#last')
+        // console.log(knowchilddiv.childNodes);
+
+
+        // 3.nextElementsibling
+        const heading = document.querySelector('h2');
+        console.log(heading.nextElementSibling);
+
+    </script>
+</body>
+</html>
