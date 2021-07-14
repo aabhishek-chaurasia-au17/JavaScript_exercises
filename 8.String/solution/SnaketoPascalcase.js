@@ -8,7 +8,7 @@
 
 let str ='geeks_for_geeks'
 
-let res = str.replaceAll('_','').toLocaleUpperCase().replace(' ','');
+let res = str.replace('_',' ').titleCase().replace(' ','');
 
 console.log(res);
 
