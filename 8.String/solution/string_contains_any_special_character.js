@@ -10,12 +10,14 @@
 
 
 const checkString = (str) =>{
+    let formet = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
 
-    for(let i = 0; i < str.length; i++){
-        if(str[i] !== $){
-            console.log("NOT ACCEPTED");
-        }
+    if(formet.test(str)){
+        console.log("String is not accepted");
+    }else{
+        console.log("String is accepted");
     }
+    
 }
-let str = "Geeks$For$Geeks"
-console.log(checkString(str)); 
+let str = "Geeks For Geeks"
+checkString(str); 
