@@ -1,5 +1,5 @@
 
-var Trafic_light = "green";
+var Trafic_light = "red";
 
 switch (Trafic_light) {
     case "red":
