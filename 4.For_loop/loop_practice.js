@@ -11,8 +11,8 @@ for(i = 1; i <= 10; i++){
 
 let arr = ["Ricciardo", "Verstappen", "Bottas"];
 
-arr.forEach((a,idx,array,) => {
-    console.log(`${a} ${idx} ${arr}`);
+arr.forEach((element,idx,array,) => {
+    console.log(`${element} ${idx} ${arr}`);
 });
 
 

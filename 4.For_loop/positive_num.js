@@ -11,9 +11,9 @@
 const positive_num = (start, end) => {
     
     for(start; start < end; start++)
-    if(start >= 0){
-        console.log(start)
-    }
+        if(start >= 0){
+            console.log(start)
+        }
     
 }
 positive_num(-4, 5);

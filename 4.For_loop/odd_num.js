@@ -12,8 +12,8 @@
 
 const odd_num = (start,end) => {
     for(start; start <= end; start++)
-    if(start % 2 !== 0){
-        console.log(start);
-    }
+        if(start % 2 !== 0){
+            console.log(start);
+        }
 }
 odd_num(4,15)

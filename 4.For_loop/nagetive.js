@@ -11,10 +11,9 @@
 const nagetive_num = (start, end) => {
     
     for(start; start < end; start++)
-    if(start < 0){
-        console.log(start)
-    }
-    
+        if(start < 0){
+            console.log(start)
+        }
 }
 nagetive_num(-4, 5);
 
