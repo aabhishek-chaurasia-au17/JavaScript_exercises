@@ -16,3 +16,4 @@ var comp = 10 > 20;
 console.log(comp)
 
 
+console.log(typeof(NaN));
