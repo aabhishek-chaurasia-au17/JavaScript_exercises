@@ -5,6 +5,8 @@ var book = {
     isAvaileble : true,
 }
 
+book.titel = 'Hare Krishna';
+
 for(var key in book){
     console.log(key + " = " + book[key]);
 }
