@@ -33,7 +33,7 @@ console.log(book)
 // Dot Notation:
 console.log(book.Titel);
 console.log(book.isAvailebale);
-console.log(book.author);
+console.log(book.author.name);
 
 // Bracket Notation:
 console.log(book['Titel']);
