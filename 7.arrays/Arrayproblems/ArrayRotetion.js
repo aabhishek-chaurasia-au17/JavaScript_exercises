@@ -19,7 +19,7 @@ const arryrotate = (arr,k) =>{
     return arr
 }
 let arr = [1, 2, 3, 4, 5, 6, 7];
-let k = 2; 
+let k = 5; 
 let n = 7;
 console.log(arryrotate(arr,k)); 
 
