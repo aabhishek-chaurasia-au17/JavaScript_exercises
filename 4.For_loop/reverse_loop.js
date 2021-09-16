@@ -6,12 +6,12 @@
 
 let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
 
-// for(let i = arr.length -1; i >= 0; i--){
-//     console.log(arr[i]);
-// }
+for(let i = arr.length -1; i >= 0; i--){
+    console.log(arr[i]);
+}
 
-let array = arr.reverse();
-console.log(array)
+// let array = arr.reverse();
+// console.log(array)
 
 // const num = [,2,3,4,5];
 // var target = 5;

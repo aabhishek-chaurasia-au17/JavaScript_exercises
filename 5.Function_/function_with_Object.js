@@ -8,7 +8,8 @@ var user = {
     }
 }
 
-user.greet();
+
+console.log(user.greet());
 
 
 

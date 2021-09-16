@@ -17,7 +17,6 @@ var b = "2a"
 
 console.log(isNaN(a + b))
 
-
 console.log(Number("10"));
 console.log(parseInt(10.5));
 console.log(parseFloat(10.5));

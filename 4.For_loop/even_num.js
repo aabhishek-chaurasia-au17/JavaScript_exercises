@@ -13,6 +13,6 @@ const even_num = (start, end) =>{
     for(start; start < end; start++)
     if (start % 2 === 0){
         console.log(start)
-    }    
+    }
 }
 even_num(4,15);
